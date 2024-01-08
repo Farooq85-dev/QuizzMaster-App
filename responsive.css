@@ -1,0 +1,25 @@
+@media only screen and (max-width: 400px) {
+    .name>p {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .name>p {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .name>p {
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .htmlbtn,
+    .cssbtn,
+    .jsbtn {
+        display: block;
+    }
+}

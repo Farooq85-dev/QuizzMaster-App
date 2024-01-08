@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizzMaster.net</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Start Login/SignUp Form -->
+    <div class="form">
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form class="formtop">
+                    <h1>Create Account</h1>
+                    <div class="social-container">
+                        <p class="connect">Connect With Us On</p>
+                        <a href="https://web.facebook.com/farooq8185" target="_blank" class="social"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://github.com/Farooq85-dev" target="_blank" class="social"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/muhammad-farooq-b71886295/" target="_blank"
+                            class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>Register Your-Self</span>
+                    <input type="text" placeholder="Name" id="nameSignUp" />
+                    <input type="email" placeholder="Email" id="emailSignUp" />
+                    <input type="password" placeholder="Password" id="passwordSignUp" />
+                    <input type="password" placeholder="Confirm Password" id="cpasswordSignUp" />
+                    <button onclick="registerYourSelf();">Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form class="formbottom">
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+                        <a href="https://web.facebook.com/farooq8185" target="_blank" class="social"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://github.com/Farooq85-dev" target="_blank" class="social"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/muhammad-farooq-b71886295/" target="_blank"
+                            class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span >Enter Your Email and Password</span>
+                    <input type="email" placeholder="Email" id="emailSignIn" />
+                    <input type="password" placeholder="Password" id="passwordSignIn" />
+                    <button onclick="signInYourSelf()">Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p class="loginp">To keep connected with us please login with your personal info. </p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Hello Friend!</h1>
+                        <p class="signp">Enter your personal details and start journey with us.</p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Login/SignUp form -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
